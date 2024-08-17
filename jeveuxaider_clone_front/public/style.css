@@ -1,0 +1,25 @@
+.banner  a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 0;
+}
+.banner a:hover{
+    background-color: #99acc663;
+    color: navy;
+    
+}
+.banner{
+    display: inline;
+    padding: 0;
+    margin-left: 10px;
+    width: 100%;
+    height: fit-content;
+}
+.banner .col{
+    display: inline;
+    padding: 0;
+    margin-left: 10px;
+    width: 100%;
+    height: fit-content;
+}

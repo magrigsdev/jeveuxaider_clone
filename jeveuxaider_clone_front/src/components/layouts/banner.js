@@ -1,5 +1,5 @@
 import React  from 'react'
-import {Col, Container, Row,  } from 'react-bootstrap';
+
 
 
 
@@ -7,28 +7,35 @@ function Banner() {
     const styleBanner = {
         margin: "15px",
         padding: "10px",
-        Border: "1px solid #ddd",
+        Border: "1px solid red",
         textDecoration: "none",
-        color: "black",
+        or: "black",
         
         
     }
     
     return (
         <>
-            <Container>
-                <Row className="justify-content-left text-bold">
-                    <Col lg={8} md={8} style={styleBanner}>
-                        <a href="#" style={styleBanner}>Bénevolat près de chez moi</a>
-                        <a href="#" style={styleBanner}>A distance</a>
-                        <a href="#" style={styleBanner}>En ce moment</a>
-                        <a href="#" style={styleBanner}>Associations</a>
-                        <a href="#" style={styleBanner}>Centre d'aide</a>
-                    </Col>
+            <div class="container-fluid">
+                <hr className='m-2'/>
+                <div class="banner">
+                    <span><a href="#" > Bénevolat près de chez moi</a></span>
+                    <span>
+                        <a href="#" >A distance</a>
+                    </span>
+                    <span>
+                        <a href="#" >En ce moment</a>
+                    </span>
+                    <span>
+                        <a href="#" >Associations</a>
+                    </span>
+                    <span><a href="#" >Centre d'aide</a></span>
                     
-                </Row>
-               
-            </Container>
+                </div>
+            </div>
+            
+            
+            
 
         </>
     )
