@@ -1,3 +1,30 @@
+.mynabar{
+    vertical-align: baseline;
+    color: rgb(18, 18, 157) !important;
+}
+.mynabar a{
+    text-decoration: none;
+    color: rgb(18, 18, 157);
+}
+.mynabar .mylink a:hover{
+    text-decoration: underline;
+}
+.tiret{
+    color: #ddd;
+}
+.mylink i{
+    margin-right: 10px;
+}
+.mynabar .compte, i{
+    color:rgb(18, 18, 157) ;
+}
+.mynabar .compte:hover{
+    color:none;
+    background-color:#edf2f4be;
+}
+
+/*===========================================================*/
+
 .banner  a{
     text-decoration: none;
     color: black;
@@ -5,7 +32,7 @@
     margin: 0;
 }
 .banner a:hover{
-    background-color: #99acc663;
+    background-color: #edf2f4be;
     color: navy;
     
 }
@@ -16,10 +43,7 @@
     width: 100%;
     height: fit-content;
 }
-.banner .col{
-    display: inline;
-    padding: 0;
-    margin-left: 10px;
-    width: 100%;
-    height: fit-content;
+hr{
+    background-color: #edf2f4be;
 }
+
