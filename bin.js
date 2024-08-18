@@ -5,11 +5,25 @@ import React from 'react';
  function Mynavbar(props)  {
      const logo_franacais = "https://www.envoludia.org/wp-content/uploads/2020/03/1200px-Republique-francaise-logo.svg_.png";
      const jeveux_aider = "https://th.bing.com/th/id/OIP.3GAtevkKMzbtvzrMDTxVKQAAAA?rs=1&pid=ImgDetMain";
-
+     const mycolor = {
+         color: 'navy',
+         fontWeight: 'bold',
+         margin: '20px',
+         fontSize:'10pt',
+         
+     }
+     const PersonStyle = {
+         color: 'navy',
+         fontWeight: 'bold',
+         margin: '20px',
+         border: '1px solid #ddd',
+         fontSize:'10pt',
+         
+   }
   
     return (
       <>
-        <nav className="navbar navbar-expand-lg bg-body-white me-4 navbar_style">
+        <nav className="navbar navbar-expand-lg bg-body-white me-4">
           <div className="container-fluid">
             <a className="navbar-brand" href="#">
               <img src={logo_franacais} alt="Bootstrap" width="100" height="120" className="ml-0"/>
