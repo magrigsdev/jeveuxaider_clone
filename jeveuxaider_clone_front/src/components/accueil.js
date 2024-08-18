@@ -53,15 +53,32 @@ const Accueil = () => {
                 </div>
             </div>
 
-            <div className='section3 p-2'>
-                <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi quidem optio quaerat necessitatibus, natus impedit eveniet quam perferendis voluptatem odit temporibus deleniti officia. Saepe officiis ad aperiam omnis harum quos.
-                </p>
+            <h1 style={{ textAlign: "center",fontSize:"30pt", fontWeight:"bold" }}>
+                C’est votre première fois ? <br /> Suivez le guide
+            </h1>
+            <div className='section3 ' >
+                <div className='container'>
+                    <div className='row'>
+                        <div className='col'>
+                            <h2>Le bénévolat et plus si affinités</h2>
+                            <h3>Contribuez à une cause qui vous touche au coeur </h3>
+                        </div>
+                        <div className='col'></div>
+                    </div>
+                    <div className='row'>
+                        <div className='col'>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptate quaerat consequatur ea, porro rerum inventore reiciendis, quidem quod natus assumenda nobis obcaecati provident pariatur neque molestiae repellat sit autem.
+                        </div>
+                        <div className='col'>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptate quaerat consequatur ea, porro rerum inventore reiciendis, quidem quod natus assumenda nobis obcaecati provident pariatur neque molestiae repellat sit autem.
+                        </div>
+                        <div className='col'>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptate quaerat consequatur ea, porro rerum inventore reiciendis, quidem quod natus assumenda nobis obcaecati provident pariatur neque molestiae repellat sit autem.
+                        </div>
+                    </div>
+                </div>
             </div>
-            
-            
-            
-            
+              
         </>
     );
 };

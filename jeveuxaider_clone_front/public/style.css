@@ -131,9 +131,17 @@ hr{
     padding: 10px;
 }
 .right .organisation-image{
-    background: url("./pictures/section2-right.png") ;
+    background: url("./pictures/section2-right.png") no-repeat center ;
     width: 100%;
     height: 250px;
     overflow: hidden;
 }
 /*==================***************************** *===========*/
+.section3{
+    margin-top: 20px;
+    width: 100%;
+    height: 500px;
+    padding: 50px;
+    background-color: rgb(255 164 139);
+ 
+}
