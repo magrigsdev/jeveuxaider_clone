@@ -4,7 +4,12 @@ import Mynavbar from './layouts/mynavbar';
 import Banner from './layouts/banner';
 
 const Accueil = () => {
-   const [value, setValue] = useState("hello i use state")
+    const type_benevolat = [
+        "💬 traduction", "🐰 Soins des animaux", "🍃 Ramassage des déchets",
+        "🧑‍🎓 Mentorat & parrainage", "🍜 Maraude", "🚚 Logistique", "👨‍💻 informatique",
+        "👭 gestion des ressources humaines", "📆 événementiel",
+        "🌳 amenagement d'espace naturel"
+   ]
     return (    
         <> 
             <Mynavbar/>
@@ -58,24 +63,18 @@ const Accueil = () => {
             </h1>
             <div className='section3 ' >
                 <div className='container'>
-                    <div className='row'>
-                        <div className='col'>
-                            <h2>Le bénévolat et plus si affinités</h2>
-                            <h3>Contribuez à une cause qui vous touche au coeur </h3>
-                        </div>
-                        <div className='col'></div>
+                    <div className="row">
+                        <h1>le bénévolat et plus si affinités</h1>
+                        <h4>Contribuez à une cause qui vous touche au coeur</h4>
                     </div>
-                    <div className='row'>
-                        <div className='col'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptate quaerat consequatur ea, porro rerum inventore reiciendis, quidem quod natus assumenda nobis obcaecati provident pariatur neque molestiae repellat sit autem.
-                        </div>
-                        <div className='col'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptate quaerat consequatur ea, porro rerum inventore reiciendis, quidem quod natus assumenda nobis obcaecati provident pariatur neque molestiae repellat sit autem.
-                        </div>
-                        <div className='col'>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis voluptate quaerat consequatur ea, porro rerum inventore reiciendis, quidem quod natus assumenda nobis obcaecati provident pariatur neque molestiae repellat sit autem.
-                        </div>
+                    <div className='row row_type_benevolat'>
+                        {type_benevolat.map((item) =>
+                            
+                               <a href='#' className="btn btn-outline-secondary type_benevolat">{item}</a>     
+                        )}
+                        
                     </div>
+                    
                 </div>
             </div>
               
@@ -83,8 +82,5 @@ const Accueil = () => {
     );
 };
 
-function clickme(e) {
-   
-    alert(e.target["myinput"].value)
-}
+
 export default Accueil;
